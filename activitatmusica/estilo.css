@@ -1,0 +1,71 @@
+/* Estilos generales */
+body {
+    font-family: 'Lato', sans-serif;
+  }
+  
+  /* Estilos para el título principal */
+  h1 {
+    background-color: #8bc34a;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Estilos para el contenedor de las canciones */
+  .cancion {
+    display: inline-block;
+    -webkit-box-shadow: 4px 4px 20px 0px rgba(0,0,0,0.8);
+    box-shadow: 4px 4px 20px 0px #000000cc;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    position: relative
+  }
+  
+/* Estilos para el título de la canción */
+.titulo-cancion {
+    position: absolute;
+    top: 50%; /* Posicionamos el título en el centro vertical */
+    left: 50%; /* Posicionamos el título en el centro horizontal */
+    transform: translate(-50%, -50%); /* Centramos el título exactamente en el centro del contenedor */
+    background-color: white; /* Fondo del texto en blanco */
+    color: #8bc34a; /* Texto en verde */
+    padding: 10px;
+    font-size: 20pt;
+    text-align: center; /* Centramos el texto horizontalmente */
+    text-transform: uppercase;
+  }
+  
+
+  /* Estilos para la imagen de la canción */
+  .imagen-cancion {
+    width: 100%;
+    border-radius: 5px;
+  }
+  
+  
+  /* Estilos para el botón Play/Pause */
+  .boton-play-pause {
+    display: block;
+    text-decoration: none;
+    color: white;
+    background-color: #8bc34a;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  /* Estilos para el nombre del artista */
+  .artista {
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  /* Estilos para el pie de página */
+  footer {
+    text-align: center;
+    font-weight: bold;
+    border-top: 2px solid black;
+  }
+  
